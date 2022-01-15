@@ -230,6 +230,9 @@
                 .starting {
                     order: 2;
                 }
+                .starting {
+                    text-align: center;
+                }
                 header,
                 .title,
                 .starting,
@@ -258,6 +261,12 @@
                 .grid {
                     grid-template-columns: repeat(2, 1fr);
                 }
+                .image {
+                    order: 1;
+                }
+                .starting {
+                    order: 2;
+                }
                 header,
                 .title,
                 .starting,
@@ -272,8 +281,6 @@
                 }
                 .logos {
                     justify-content: center;
-                    border: none;
-                    border-image: none;
                     margin-bottom: 100px;
                 }
                 .logos img {
